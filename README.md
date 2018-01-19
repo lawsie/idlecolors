@@ -6,10 +6,10 @@ _These functions will ONLY work in IDLE, they use a side effect of the IDLE synt
 
 ## How do I install idlecolors
 
-Download the file `idlecolors.py` and save it onto your computer.
+Right click the link to download the file [idlecolors.py](https://raw.githubusercontent.com/lawsie/idlecolors/master/idlecolors.py) and save it onto your computer.
 
 ## How do I use colours
-Create a Python program in the same folder as the `idlecolors.py` file and add the following statement once at the start of your program:
+Create a Python program **in the same folder as the `idlecolors.py` file** and add the following statement once at the start of your program:
 
 ```python
 from idlecolors import *
