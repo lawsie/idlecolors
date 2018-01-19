@@ -56,22 +56,22 @@ These colours are defined by the default syntax highlighting in IDLE (Options > 
 
 Yes, but it is not particularly straightforward and involves some configuration. You can define 5 custom user colours manually:
 
-1. In IDLE, select `Options` > `Configure IDLE`, then click on the `Highlighting` tab.
-1. Click the drop down `Normal text` and select a settings to change. In this example we will choose Python Definitions which is known as the colour `user1()`.
+1. In IDLE, select `Options` > `Configure IDLE`, then click on the `Highlights` tab.
+2. Click the drop down `Normal text` and select a type of text to change. In this example we will choose "Python Definitions" which is known in `idlecolors` as the colour `user1()`.
 
   ![Change settings](images/change_settings.png)
 
-1. Select a new colour by clicking on the "Choose colour for" button and selecting a colour
+3. Select a new colour by clicking on the `Choose colour for` drop down and selecting a colour from the palette:
 
-  ![Choose colour](images/choose_colour.png)
+  ![Choose colour](images/choose_color.png)
 
-1. Open the `idlecolors.py` file and change the `USE_CUSTOM_COLORS` value to `True`. (Be aware that this will also allow **all** of the user defined colours to be randomly chosen.)
+4. Now open your copy of `idlecolors.py` file and change the `USE_CUSTOM_COLORS` value to `True`. (Be aware that this will also allow **all** of the user defined colours to be randomly chosen.)
 
-```python
-USE_CUSTOM_COLORS = True       # Change to True if you want to use custom colours
-```
+  ```python
+  USE_CUSTOM_COLORS = True       # Change to True if you want to use custom colours
+  ```
 
-1. You can now use the colour you selected as `user1()`.
+5. You can now use the colour you selected for "Python Definitions" as `user1()`.
 
   ```Python
   from idlecolors import *
@@ -86,6 +86,7 @@ If you wish, you can change the name of the colour by editing the `idlecolors.py
 
 Yes, yes it is.
 
-### Thanks
+## Thanks
 
-Credit for this idea came from this [Stackoverflow thread](https://stackoverflow.com/questions/42472958/how-do-i-print-colored-text-in-idles-terminal)
+Credit for this idea came from this [Stackoverflow thread](https://stackoverflow.com/questions/42472958/how-do-i-print-colored-text-in-idles-terminal). I made this because kids like
+colours. It's not at all meant to be used for anything serious.
