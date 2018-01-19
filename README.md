@@ -24,6 +24,7 @@ printc( "If you add " + red("red") + " to " + blue("blue") + ", you get " + purp
 
 ![Example 1](images/example1.png)
 
+### Random colours
 You can also randomly select colours like this:
 
 ```python
@@ -33,6 +34,7 @@ printc( randcol("This is a random colour") )
 
 ![Example 2](images/example2.png)
 
+### End of line?
 By default, the `printc()` function adds a newline character at the end of its output, just like `print()`. You can change the end character in
 the same way as you would with the print function by specifying an `end` argument as in the example below.
 
