@@ -8,8 +8,14 @@ _These functions will ONLY work in IDLE, they use a side effect of the IDLE synt
 
 Right click the link to download the file [idlecolors.py](https://raw.githubusercontent.com/lawsie/idlecolors/master/idlecolors.py) and save it onto your computer.
 
+If you are using a Raspberry Pi, you could open a terminal and type the following command to copy the file:
+
+```bash
+git clone https://github.com/lawsie/idlecolors.git
+```
+
 ## How do I use colours
-Create a Python program **in the same folder as the `idlecolors.py` file** and add the following statement once at the start of your program:
+Open IDLE. Create a Python program **in the same folder** as the `idlecolors.py` file and add the following statement once at the start of your program:
 
 ```python
 from idlecolors import *
